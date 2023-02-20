@@ -2,9 +2,9 @@
 // Напишите программу, которая по заданному номеру четверти, 
 // показывает диапазон возможных координат точек в этой четверти (x и y).
 
-int ReadInput(string mess)
+int ReadData(string msg)
 {
-    Console.Write(mess);
+    Console.WriteLine(msg);
     return Convert.ToInt32(Console.ReadLine());
 }
 
