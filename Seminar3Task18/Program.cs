@@ -21,5 +21,5 @@ void SearchXY(int num)
 }
 
 
-int quarter = ReadInput("Введите номер четверти: ");
+int quarter = ReadData("Введите номер четверти: ");
 SearchXY(quarter);
