@@ -12,12 +12,6 @@ int ReadData(string line)
     return Convert.ToInt32(Console.ReadLine()??"0"); 
 }
 
-// method outputs data to the user
-void PrintData(string line)
-{
-    Console.WriteLine(line);
-}
-
 // method counts factorial of the number
 BigInteger FactorCalc (int numA)
 {

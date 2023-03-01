@@ -1,14 +1,5 @@
 ﻿// Задача No30. Напишите программу, которая выводит массив из 8 элементов, заполненный нулями и единицами в случайном порядке.
 
-// method reads data from user
-int ReadData(string line)
-{
-    // output message
-    Console.WriteLine(line);
-    // return value converted to integer
-    return Convert.ToInt32(Console.ReadLine()??"0"); 
-}
-
 // method forms 1D array of length "len" with random values <-> min & max
 int[] Gen1DArr(int len, int min, int max)
 {
