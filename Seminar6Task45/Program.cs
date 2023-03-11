@@ -1,20 +1,5 @@
 ﻿// Задача №45 Напишите программу, которая будет создавать копию заданного одномерного массива с помощью поэлементного копирования.
 
-// method reads data from user
-int ReadData(string line)
-{
-    // output message
-    Console.WriteLine(line);
-    // return value converted to integer
-    return Convert.ToInt32(Console.ReadLine()??"0"); 
-}
-
-// method prints the result of the sum of the array elements 
-void PrintData(string result)
-{
-    Console.WriteLine(result);
-}
-
 // method forms 1D array of length "len" with random values <-> min & max
 int[] Gen1DArr(int len, int min, int max)
 {
